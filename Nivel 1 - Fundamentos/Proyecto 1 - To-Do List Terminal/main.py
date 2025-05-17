@@ -1,4 +1,4 @@
-import json, os, uuid
+import json, os, uuid, sys
 from datetime import datetime
 
 # Definición de la clase principal para la aplicación de lista de tareas
@@ -36,7 +36,8 @@ class To_Do_List():
             elif opcion == "5":
                 self.eliminar_tarea()
             elif opcion == "0":
-                break
+                print("Saliendo de To-Do List.")
+                sys.exit()
             else:
                 print("Opción no válida.")
                 self._pausar()
