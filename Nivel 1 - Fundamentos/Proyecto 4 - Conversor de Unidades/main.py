@@ -114,7 +114,7 @@ class ConversorUnidades():
             print(f"{id}. {unidad}")
             
     def _pausar(self):
-        input("\nPresiona Enter para continuar...")
+        input("\nPresiona Enter para continuar...a")
     
 if __name__ == "__main__":
     ConversorUnidades()
