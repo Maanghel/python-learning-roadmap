@@ -46,16 +46,17 @@ python main.py
 
 ## 🛠️ Posibles mejoras futuras
 
-- ✅ Persistencia en archivo JSON ✔️  
-- 🔄 Ordenar tareas por fecha o estado  
-- 🧠 Filtro por tareas completadas o pendientes  
+- ✅ Persistencia en archivo JSON ✔️
+- 🔄 Ordenar tareas por fecha o estado
+- 🧠 Filtro por tareas completadas o pendientes
 - 🖥️ Interfaz visual usando `curses` o `tkinter`  
-- 📦 Separar lógica y presentación (MVC básico)  
+- 📦 Separar lógica y presentación (MVC básico)
 
 ---
 
 ## ✅ Estado actual
 
+- Estado funcional y estable
 - CRUD funcional completo  
 - Persistencia implementada  
 - Control de errores básico  
