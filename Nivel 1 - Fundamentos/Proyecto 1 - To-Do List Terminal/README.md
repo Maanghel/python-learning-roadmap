@@ -31,3 +31,32 @@ Las tareas se almacenan de forma persistente en un archivo `JSON`.
 
 ```bash
 python main.py
+```
+
+## 💡 Funcionalidades implementadas
+
+- Menú interactivo por consola.  
+- Generación de ID único con `uuid`.  
+- Registro de fecha de creación con `datetime`.  
+- Gestión persistente de datos con `json`.  
+- Validación de entradas y control de errores.  
+- Limpieza de pantalla multiplataforma (`cls` y `clear`).  
+
+---
+
+## 🛠️ Posibles mejoras futuras
+
+- ✅ Persistencia en archivo JSON ✔️  
+- 🔄 Ordenar tareas por fecha o estado  
+- 🧠 Filtro por tareas completadas o pendientes  
+- 🖥️ Interfaz visual usando `curses` o `tkinter`  
+- 📦 Separar lógica y presentación (MVC básico)  
+
+---
+
+## ✅ Estado actual
+
+- CRUD funcional completo  
+- Persistencia implementada  
+- Control de errores básico  
+- Terminal limpio y navegable  
