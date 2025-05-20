@@ -10,7 +10,9 @@ Este repositorio documenta mi proceso de aprendizaje en Python, desde fundamento
 | 2  | Calculadora (terminal)       | Calculadora con funciones extendidas     | ✅ Finalizado |
 | 3  | Piedra, Papel o Tijera       | Juego clásico contra la IA               | ✅ Finalizado |
 | 4  | Conversor de Unidades        | Conversor con interfaz dinámica          | ✅ Finalizado |
-| 5  | Generador de Contraseñas     | Generador de contraseñas                 |    Proceso     |
+| 5  | Generador de Contraseñas     | Generador de contraseñas                 | ✅ Finalizado |
+| 6  | Web Scraper                  | Extraer de diferentes tipos              | En proceso     |
+
 
 
 ## 🚀 Objetivo
