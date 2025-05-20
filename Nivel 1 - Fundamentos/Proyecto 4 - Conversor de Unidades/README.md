@@ -2,7 +2,8 @@
 
 ## 📋 Descripción
 
-Aplicación interactiva en terminal que permite convertir entre distintas unidades de longitud, peso/masa, tiempo y temperatura, con validación de entradas y manejo de conversiones lineales y no lineales (temperatura).
+Aplicacion interactiva en terminal que permite convertir entre distintas unidades de longitud, peso/masa, tiempo y temperatura, con validación de entradas y manejo de conversiones lineales y no lineales (temperatura).
+
 ---
 
 ## 🚀 Tecnologías y herramientas utilizadas
