@@ -179,5 +179,4 @@ class To_Do_List():
 
 
 if __name__ == "__main__":
-    # Crear una instancia de la clase, lo que inicia automáticamente el programa
-    todo = To_Do_List()
+    To_Do_List()

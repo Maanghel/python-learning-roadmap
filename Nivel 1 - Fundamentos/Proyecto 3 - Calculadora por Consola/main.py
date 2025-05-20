@@ -9,17 +9,19 @@ class Calculadora:
         while True:
             
             os.system("cls" if os.name == "nt" else "clear")
-            print("""\n----- MENU -----
-1. Sumar
-2. Restar
-3. Multiplicar
-4. Dividir
-5. Potencia
-6. Raíz Cuadrada
-7. Factorial
-8. Historial
-0. Salir
------------------""")
+            print("\n===== CALCULADORA =====")
+            print("Seleccione una operación:")
+            print("  1. Sumar")
+            print("  2. Restar")
+            print("  3. Multiplicar")
+            print("  4. Dividir")
+            print("  5. Potencia")
+            print("  6. Raíz Cuadrada")
+            print("  7. Factorial")
+            print("  8. Historial de Operaciones")
+            print("  0. Salir")
+            print("=" * 30)
+            
             opcion = input("\nSeleccione una opción: ").strip()
             if opcion == "1":
                 self.sumar()
