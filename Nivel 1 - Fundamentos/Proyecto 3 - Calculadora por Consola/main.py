@@ -9,8 +9,9 @@ class Calculadora:
         while True:
             
             os.system("cls" if os.name == "nt" else "clear")
-            print("\n===== CALCULADORA =====")
-            print("Seleccione una operación:")
+            print("\n" + "="*30)
+            print("        CALCULADORA")
+            print("="*30)
             print("  1. Sumar")
             print("  2. Restar")
             print("  3. Multiplicar")
@@ -20,7 +21,7 @@ class Calculadora:
             print("  7. Factorial")
             print("  8. Historial de Operaciones")
             print("  0. Salir")
-            print("=" * 30)
+            print("="*30)
             
             opcion = input("\nSeleccione una opción: ").strip()
             if opcion == "1":
@@ -40,7 +41,7 @@ class Calculadora:
             elif opcion == "8":
                 self.imprimir_historial()
             elif opcion == "0":
-                print("Saliendo de la calculadora.")
+                print("¡Gracias por usar la calculadora!")
                 sys.exit()
             else:
                 print("Opción no válida.")

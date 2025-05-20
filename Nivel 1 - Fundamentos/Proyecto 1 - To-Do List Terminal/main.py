@@ -12,19 +12,20 @@ class To_Do_List():
         self.menu()
 
     def menu(self):
-        # Menú de opciones principal, se ejecuta en un bucle infinito
         while True:
-            # Limpia la consola dependiendo del sistema operativo
             os.system("cls" if os.name == "nt" else "clear")
-            print("""\n----- MENU -----
-1. Agregar tarea
-2. Mostrar tareas
-3. Completar tarea
-4. Modificar tarea
-5. Eliminar tarea
-0. Salir
------------------""")
-            opcion = input("\nSeleccione una opción: ")
+            print("\n" + "="*30)
+            print("        TO-DO LIST MENU")
+            print("="*30)
+            print("1. Agregar tarea")
+            print("2. Mostrar tareas")
+            print("3. Completar tarea")
+            print("4. Modificar tarea")
+            print("5. Eliminar tarea")
+            print("0. Salir")
+            print("="*30)
+            
+            opcion = input("\nSeleccione una opción (0-5): ").strip()
             if opcion == "1":
                 self.agregar_tarea()
             elif opcion == "2":
@@ -36,10 +37,10 @@ class To_Do_List():
             elif opcion == "5":
                 self.eliminar_tarea()
             elif opcion == "0":
-                print("Saliendo de To-Do List.")
+                print("👋 Saliendo de To-Do List. ¡Hasta luego!")
                 sys.exit()
             else:
-                print("Opción no válida.")
+                print("⚠️ Opción no válida. Intente de nuevo.")
                 self._pausar()
     
     def cargar_tareas(self):

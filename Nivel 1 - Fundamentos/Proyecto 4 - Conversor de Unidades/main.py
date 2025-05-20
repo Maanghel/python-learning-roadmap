@@ -91,12 +91,12 @@ class ConversorUnidades():
         while True:
             de = input("\nConvertir de: ").strip().lower()
             if de not in self.categorias[categoria]:
-                print("\nUnidad de origen no válida. Intente de nuevo.")
+                print("\n❌ Unidad de origen no válida. Intente de nuevo.")
                 continue
             
             a = input("Convertir a: ").strip().lower()
             if a not in self.categorias[categoria]:
-                print("\nUnidad de destino no válida. Intente de nuevo.")
+                print("\❌  de destino no válida. Intente de nuevo.")
                 continue
                 
             break
@@ -110,7 +110,7 @@ class ConversorUnidades():
                 resultado = valor * (unidad_origen / unidad_destino) # Conversión
                 print(f"\nResultado: {valor} {de} = {resultado:.4f} {a}")
             except ValueError:
-                print("\nEntrada no válida.")
+                print("\n❌ Entrada no válida.")
             
             break
         
@@ -125,7 +125,7 @@ class ConversorUnidades():
         elif de == a:
             return valor
         else:
-            raise ValueError("Conversión de temperatura no válida.")
+            raise ValueError("❌ Conversión de temperatura no válida.")
 
     # Método para la interfaz de usuario de conversión de temperatura
     def convertir_temperatura_ui(self):
@@ -136,11 +136,11 @@ class ConversorUnidades():
         while True:
             de = input("\nConvertir de: ").strip().lower()
             if de not in self.conversiones_temperatura:
-                print("\nUnidad de origen no válida. Intente de nuevo.")
+                print("\n❌ Unidad de origen no válida. Intente de nuevo.")
                 continue
             a = input("Convertir a: ").strip().lower()
             if a not in self.conversiones_temperatura:
-                print("\nUnidad de destino no válida. Intente de nuevo.")
+                print("\n❌ Unidad de destino no válida. Intente de nuevo.")
                 continue
             
             break
@@ -152,7 +152,7 @@ class ConversorUnidades():
                 print(f"\nResultado: {valor} {de} = {resultado:.2f} {a}")
                 break
             except ValueError:
-                print(f"\nIngrese una temperatura valida.")
+                print(f"\n❌ Ingrese una temperatura valida.")
             
         self._pausar()
 
