@@ -9,7 +9,9 @@ Este repositorio documenta mi proceso de aprendizaje en Python, desde fundamento
 | 1  | To-Do List (terminal)        | Aplicación CRUD de lista de tareas       | ✅ Finalizado |
 | 2  | Calculadora (terminal)       | Calculadora con funciones extendidas     | ✅ Finalizado |
 | 3  | Piedra, Papel o Tijera       | Juego clásico contra la IA               | ✅ Finalizado |
-| 4  | Conversor de Unidades        | Conversor con interfaz dinámica (curses) | 🛠️ En progreso |
+| 4  | Conversor de Unidades        | Conversor con interfaz dinámica          | ✅ Finalizado |
+| 5  | Generador de Contraseñas     | Generador de contraseñas                 |    Proceso     |
+
 
 ## 🚀 Objetivo
 
