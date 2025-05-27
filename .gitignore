@@ -6,3 +6,6 @@
 
 # Ignorar Cache
 __pycache__
+
+# Ignorar variables de entorno
+.env
