@@ -11,7 +11,7 @@ Este repositorio documenta mi proceso de aprendizaje en Python, desde fundamento
 | 3  | Piedra, Papel o Tijera       | Juego clásico contra la IA               | ✅ Finalizado |
 | 4  | Conversor de Unidades        | Conversor con interfaz dinámica          | ✅ Finalizado |
 | 5  | Generador de Contraseñas     | Generador de contraseñas                 | ✅ Finalizado |
-| 6  | Web Scraper                  | Extraer de diferentes tipos              | En proceso     |
+| 6  | Web Scraper                  | Extraer informacion                      | ✅ Finalizado |
 
 
 
