@@ -12,6 +12,7 @@ Este repositorio documenta mi proceso de aprendizaje en Python, desde fundamento
 | 4  | Conversor de Unidades        | Conversor con interfaz dinámica          | ✅ Finalizado |
 | 5  | Generador de Contraseñas     | Generador de contraseñas                 | ✅ Finalizado |
 | 6  | Web Scraper                  | Extraer informacion                      | ✅ Finalizado |
+| 6  | Bot Discord                  | Bot de discord                           | ✅ Finalizado |
 
 
 
